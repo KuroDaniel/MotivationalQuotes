@@ -1,0 +1,18 @@
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Motivational test.exe
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Motivational test.deps.json
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Motivational test.runtimeconfig.json
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Motivational test.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Motivational test.pdb
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.AssemblyInfoInputs.cache
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.AssemblyInfo.cs
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.csproj.CoreCompileInputs.cache
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\refint\Motivational test.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.pdb
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.genruntimeconfig.cache
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\ref\Motivational test.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.csproj.AssemblyReference.cache
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.csproj.CopyComplete
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Json.Net.dll

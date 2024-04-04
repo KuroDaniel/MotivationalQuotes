@@ -1,0 +1,17 @@
+{
+  "quote": "The only way to do great work is to love what you do. -Steve Jobs",
+  "author": "Steve Jobs",
+  "year": 1995,
+  "children": [
+    {
+      "name": "John",
+      "age": 15
+    },
+    {
+      "name": "Jane",
+      "age": 17
+    }
+  ]
+
+
+}
