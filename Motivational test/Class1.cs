@@ -18,6 +18,10 @@ namespace Motivational_test
         }
     }
 
+
+    //this code was taken from a youtube video pulling down a JSON API for a comic strip. I edited it a bit to be more for checking for string.
+    //however I have no clue how to hook this up to console as the video was hooking up the API in HTML/CSS not console
+
     public class quoteprocess { 
     public static async Task<MotivationalQuote1> Loadquote(string quoteOptions)
     {

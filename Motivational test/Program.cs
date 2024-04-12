@@ -16,6 +16,9 @@ using Newtonsoft.Json.Serialization;
 
 while (true)
 {
+
+    //original calls we made and tested but we wanted to switch it to have each one being called differently.
+
     //HttpClient client = new HttpClient();
     //HttpRequestMessage request = new HttpRequestMessage
     //{
@@ -30,41 +33,51 @@ while (true)
     //    string body = await response.Content.ReadAsStringAsync();
     //    TypeFit? result = JsonConvert.DeserializeObject<TypeFit>(body);
 
-    HttpClient client = new HttpClient();
-    HttpRequestMessage request = new HttpRequestMessage
-    {
-        Method = HttpMethod.Get,
-        RequestUri = new Uri("https://olato-quotes.p.rapidapi.com/motivation?quotes=random%20quotes"),
-        Headers =
-    {
-        { "X-RapidAPI-Key", "b0c049f4b3msh54c2a6eeef6f21bp11432ajsn9d5aabe69714" },
-        { "X-RapidAPI-Host", "olato-quotes.p.rapidapi.com" },
-    },
-    };
-    using (HttpResponseMessage response = await client.SendAsync(request))
-    {
-        response.EnsureSuccessStatusCode();
-        string body = await response.Content.ReadAsStringAsync();
-        MotivationalQuote? result = JsonConvert.DeserializeObject<MotivationalQuote>(body);
-        //Object? result = JsonConvert.DeserializeObject(body);
+    //    HttpClient client = new HttpClient();
+    //    HttpRequestMessage request = new HttpRequestMessage
+    //    {
+    //        Method = HttpMethod.Get,
+    //        RequestUri = new Uri("https://olato-quotes.p.rapidapi.com/motivation?quotes=random%20quotes"),
+    //        Headers =
+    //{
+    //    { "X-RapidAPI-Key", "b0c049f4b3msh54c2a6eeef6f21bp11432ajsn9d5aabe69714" },
+    //    { "X-RapidAPI-Host", "olato-quotes.p.rapidapi.com" },
+    //},
+    //    };
+    //    using (HttpResponseMessage response = await client.SendAsync(request))
+    //    {
+    //        response.EnsureSuccessStatusCode();
+    //        string body = await response.Content.ReadAsStringAsync();
+    //        MotivationalQuote? result = JsonConvert.DeserializeObject<MotivationalQuote>(body);
+    //        Object? result = JsonConvert.DeserializeObject(body);
 
-        Console.WriteLine(result.Quote);
+    Console.WriteLine("Would you like to choose where to get quotes from? [1] is Olato or [2] is typefit");
+    string option = Console.ReadLine();
+    if (option.Equals("1") || option.Equals("2"))
+    {
+        quoteprocess quoteprocess = new quoteprocess();
+        {
+            await quoteprocess.Loadquote(option);
 
-        /*MotivationalQuote q = new MotivationalQuote();
-        q.Quote = "forescore 7 years ago";
-        Console.BackgroundColor = ConsoleColor.Magenta;
-        Console.WriteLine(q);*/
+        }
+            
+    }
 
-        Console.WriteLine("That sure was a quote! Would you like another quote? [y]");
+    //Console.WriteLine(result.Quote);
+
+
+    //more test code
+    /*MotivationalQuote q = new MotivationalQuote();
+    q.Quote = "forescore 7 years ago";
+    Console.BackgroundColor = ConsoleColor.Magenta;
+    Console.WriteLine(q);*/
+
+    Console.WriteLine("That sure was a quote! Would you like another quote? [y]");
         string question = Console.ReadLine().ToLower();
         if (question.Equals("y"))
         {
             continue;
         }
-        //else if (question.Equals("n"))
-        //{
-        //    break;
-        //}
         else
         { 
             break; 
@@ -72,4 +85,3 @@ while (true)
 
 
     }
-}

@@ -16,3 +16,5 @@ C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net
 C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.csproj.AssemblyReference.cache
 C:\Users\Tomokush\source\repos\Motivational test\Motivational test\obj\Debug\net6.0\Motivational test.csproj.CopyComplete
 C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Json.Net.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\Tomokush\source\repos\Motivational test\Motivational test\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

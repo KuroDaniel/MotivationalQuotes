@@ -19,6 +19,8 @@ namespace Motivational_test
         public string author { get; set; }
     }
 
+    //this was an attempt to put typefit into its own class. however this didn't seem to work.
+
     //private static async void APIcall()
     //{
     //    HttpClient client = new HttpClient();

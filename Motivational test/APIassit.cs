@@ -20,4 +20,7 @@ namespace Motivational_test
         }
     }
 
+    //this code was taken from the same video, its purpose is to allow parsing of json information and basically assist in calls for when we call one of the APIs. However
+    //I am having issues struggling to comprehend how to work with this.
+
 }
