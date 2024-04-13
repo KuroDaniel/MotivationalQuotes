@@ -10,7 +10,7 @@ namespace Motivational_test
 {
     public class MotivationalQuote
     {
-        public string Quote { get; set; }
+        public string Quote { get; set; } = "";
 
         public override string ToString()
         {
@@ -18,18 +18,11 @@ namespace Motivational_test
         }
     }
 
-    public class MotivationalArray
-    {
-        public MotivationalQuote[] Quote { get; set; }
-    }
-
 
     //more explicit as 
     public class MotivationalQuote1
     {
         [JsonProperty("quote")]
-        public string Quote { get; set; }
+        public string Quote { get; set; } = string.Empty;
     }
-
-
 }
