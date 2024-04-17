@@ -54,7 +54,7 @@ namespace Motivational_test
     }
 
 
-    //more explicit as 
+    //more explicit JSON conversion example
     public class MotivationalQuote1
     {
         [JsonProperty("quote")]
